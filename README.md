@@ -18,12 +18,12 @@ CREATE TABLE `wordpress_items` (
   `last_updated` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
-
+```
 to run the scanner you simply navigate to the directory where you downloaded the repo and run command
 
 ```bash
 php scanner.php
-
+```
 expected resuls in terminal
 **Result:**
 ```bash
@@ -50,7 +50,7 @@ total vulnerable items found (10)
 ==================================================
 writing report to current directory filename report.csv
 ==================================================
-
+```
 a new file will be created called report.csv which conains all the vulnerable plugins and themes
 
 **TODO**
